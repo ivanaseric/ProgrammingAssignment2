@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Function cahceSolve checks if the inverse was calculated 
+## Function cacheSolve checks if the inverse was calculated 
 # already; if yes, then it returns the inverse, if not, then 
 # it calculates the inverse using buil-in "solve" function. 
 
