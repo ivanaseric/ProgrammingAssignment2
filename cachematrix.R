@@ -1,7 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The functions bellow will calculate the inverse of a matrix 
+# only if it was not calculated before. 
 
-## Write a short comment describing this function
+## Function makeCacheMatrix creates a list containing functions 
+# to set the value of the matrix, get the value of the matrix, 
+# set the value of the inverse, and get the value of the inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
@@ -18,7 +20,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Function cahceSolve checks if the inverse was calculated 
+# already; if yes, then it returns the inverse, if not, then 
+# it calculates the inverse using buil-in "solve" function. 
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
